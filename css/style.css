@@ -110,11 +110,13 @@ body {
 
 .fixed {
   background-image: url(../img/matrix.jpg);
+  background-attachment: inherit;
   position: fixed;
 }
 
 .fixed-background {
   padding: 5rem 0;
+  overflow: hidden;
   /*-- Correction for iOS --*/
 }
 
